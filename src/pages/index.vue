@@ -16,6 +16,7 @@ const go = () => router.push('/apple_store')
 
 onMounted(() => {
   slide.value = new BScroll(slideRef.value, {
+    click: true,
     scrollX: true,
     scrollY: false,
     slide: {
