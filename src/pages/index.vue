@@ -36,24 +36,20 @@ onMounted(() => {
 <template>
   <div ref="slideRef" class="bg-img overflow-hidden relative h-full w-full bg-cover">
     <div class="relative h-full w-full">
-      <div class="p-4 inline-grid gap-4 grid-cols-4 justify-items-center">
-        <div v-for="i in 24" :key="i" class="flex flex-col items-center">
+      <div class="grid-icons-box">
+        <div v-for="i in 24" :key="i" class="grid-app-item">
           <div
-            class="icon-img bg-cover h-14 w-14" @click="() => {
-              go()
-            }"
+            class="icon-img grid-app-icon" @click="go"
           />
           <div class="text-xs mt-1">
             Apple Store
           </div>
         </div>
       </div>
-      <div class="p-4 inline-grid gap-4 grid-cols-4 justify-items-center">
-        <div v-for="i in 24" :key="i" class="flex flex-col items-center">
+      <div class="grid-icons-box">
+        <div v-for="i in 24" :key="i" class="grid-app-item">
           <div
-            class="icon-img bg-cover h-14 w-14" @click="() => {
-              go()
-            }"
+            class="icon-img grid-app-icon" @click="go"
           />
           <div class="text-xs mt-1">
             Apple Store
