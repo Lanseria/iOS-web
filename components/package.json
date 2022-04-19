@@ -1,0 +1,11 @@
+{
+  "name": "@ios-web/components",
+  "version": "0.0.1",
+  "description": "components for ios web",
+  "license": "MIT",
+  "author": "lanseria",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

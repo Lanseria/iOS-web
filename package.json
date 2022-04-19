@@ -13,6 +13,8 @@
   "dependencies": {
     "@better-scroll/core": "^2.4.2",
     "@better-scroll/slide": "^2.4.2",
+    "@ios-web/components":"workspace:*",
+    "@ios-web/parser":"workspace:*",
     "@vueuse/core": "^8.2.6",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"

@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import routes from 'virtual:generated-pages'
+import { parserIos } from '@ios-web/parser'
 import App from './App.vue'
 
 import '@unocss/reset/tailwind.css'
@@ -14,3 +15,4 @@ const router = createRouter({
 })
 app.use(router)
 app.mount('#app')
+parserIos()
